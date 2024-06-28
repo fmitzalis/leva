@@ -7,10 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pmndrs/leva.git",
+    "url": "https://github.com/fmitzalis/leva.git",
     "directory": "packages/leva"
   },
-  "bugs": "https://github.com/pmndrs/leva/issues",
+  "bugs": "https://github.com/fmitzalis/leva/issues",
   "preconstruct": {
     "entrypoints": [
       "index.ts",
@@ -36,5 +36,8 @@
   },
   "devDependencies": {
     "@welldone-software/why-did-you-render": "^6.2.3"
+  },
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
   }
 }
